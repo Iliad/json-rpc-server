@@ -1,5 +1,4 @@
-# JSON-RPC Server{"result":{"Uuid":"dac1dd0b-f5ca-4864-a59c-c3c5d7260aac","Login":"Hidejewel-new","RegDate":"2017-12-19"},"error":null,"id":1}
-
+# JSON-RPC Server
 
 RPC-cервер позволяет создавать, изменять и получать пользователей из БД. В качестве БД используется SQLite.
 
