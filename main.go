@@ -146,7 +146,7 @@ func main() {
 	user := new(User)
 	s.RegisterService(user, "User")
 	r := mux.NewRouter()
-	r.Handle("/rpc", s)
+	r.Handle("/", s)
 	if err := http.ListenAndServe(host, r); err!=nil {
 		log.Fatal("Can't start server. Error: ", err)
 	}
